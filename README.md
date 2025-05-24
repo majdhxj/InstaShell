@@ -17,16 +17,19 @@ Usage of InstaShell for attacking targets without prior mutual consent is illega
 - Default password list (best +300k 8 letters)
 - Check and Install all dependencies
 
-### Usage:
+### Usage:s.adina7
 ```
 git clone https://github.com/g0r60n/instashell
 cd instashell
 chmod +x instashell.sh
 service tor start
 sudo ./instashell.sh
+
 ```
 
-### Install requirements (Curl, Tor, Openssl):
+### Install requirements (Curl, Tor, Openssl):cd instashell/
+chomod 775 instashell.sh
+chomod 775 install.sh
 
 ```
 chmod +x install.sh
